@@ -6,11 +6,11 @@ using namespace std;
 
 class Employee {
 private:
-	string firstNamme;
+	string FirstName;
 	string LastName;
-	int phoneNumber;
-	string address;
-	int status; // 1 - employer, 2 - manager, 3 - employee
+	int PhoneNumber;
+	string Address;
+	int Status; // 1 - employer, 2 - manager, 3 - employee
 
 public:
 	Employee();
@@ -23,11 +23,10 @@ public:
 	string getAddress();
 	int getStatus();
 
-	void setFirstName();
-	void setLastName();
-	void setName(); //get full name
-	void setPhoneNumber();
-	void setAddress();
-	void setStatus();
+	void setFirstName(string name);
+	void setLastName(string name);
+	void setPhoneNumber(int num);
+	void setAddress(string addr);
+	void setStatus(int s);
 
 };
