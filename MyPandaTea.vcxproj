@@ -148,6 +148,7 @@
   <ItemGroup>
     <ClCompile Include="source\cpp\Employee.cpp" />
     <ClCompile Include="source\cpp\main.cpp" />
+    <ClCompile Include="source\cpp\PandaInterface.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

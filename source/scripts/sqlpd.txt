@@ -1,0 +1,13 @@
+CREATE DATABASE PandaTea;
+
+CREATE TABLE Employees (
+    FirstName varchar(255) NOT NULL,
+    LastName varchar(255) NOT NULL,
+    Address varchar(255),
+    Status int
+    CONSTRAINT PandaKey PRIMARY KEY (FirstName,LastName)
+);
+
+
+INSERT INTO Empolyees (Firstname,LastName,Address,Status)
+VALUES ('Jasmine','See','70 McGill',3);
